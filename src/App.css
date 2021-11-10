@@ -19,7 +19,7 @@
   background-size: cover;
 }
 
-#todo-container {
+#wrapper {
   width: 200px;
   background-color: beige;
   border: 1px solid beige;
@@ -32,21 +32,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
   text-align: center;
 }
 
 #clock {
+  margin-top: 20px;
   padding: 10px;
   font-size: 20px;
   font-weight: 700;
-  /* margin-bottom: 10px; */
 }
 
 #login {
   padding: 10px;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 1000;
 }
 
 #quote {
@@ -55,6 +54,10 @@
   font-weight: 200;
   font-style: italic;
 }
+
+/* #todo-container {
+  margin-left: 10px;
+} */
 
 #todo-input {
   border-radius: 10px;
@@ -67,9 +70,9 @@
 }
 
 #todo-ul {
-  width: 80%;
-  padding: 10px;
-  margin: 0 auto;
+  width: 100%;
+  /* margin: 0 auto; */
+  padding-right: 10px;
 }
 
 .todo-li {
@@ -79,10 +82,11 @@
   background-color: white;
   border-radius: 10px;
   margin-bottom: 5px;
+  list-style: none;
 }
 
 .todo-button {
-  margin-left: 5px;
+  margin-left: 8px;
   border-radius: 5px;
   border: 1px solid grey;
 }

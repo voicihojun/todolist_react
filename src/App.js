@@ -8,7 +8,7 @@ import Weather from "./Weather/Weather";
 function App() {
   return (
     <div className="App">
-      <div id="todo-container">
+      <div id="wrapper">
         <Clock />
         <Login />
         <TodoForm />
